@@ -794,9 +794,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 231.07596, y: -391.67593, z: 28.83361}
+    m_Target: {x: 407.94482, y: -497.28638, z: 232.87392}
     speed: 2
-    m_Value: {x: 231.07596, y: -391.67593, z: 28.83361}
+    m_Value: {x: 407.94482, y: -497.28638, z: 232.87392}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -842,13 +842,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.33477315, y: 0.6529181, z: -0.39566773, w: 0.55246353}
+    m_Target: {x: -0.37374985, y: -0.44185513, z: 0.20960039, w: -0.7882203}
     speed: 2
-    m_Value: {x: 0.33474904, y: 0.6528711, z: -0.39563924, w: 0.5524238}
+    m_Value: {x: -0.37372214, y: -0.44182238, z: 0.20958485, w: -0.7881619}
   m_Size:
-    m_Target: 268.4595
+    m_Target: 341.35873
     speed: 2
-    m_Value: 268.4595
+    m_Value: 341.1029
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -912,7 +912,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 9c5f0000
       m_LastClickedID: 24476
-      m_ExpandedIDs: 20fbffffc65f0000
+      m_ExpandedIDs: 20fbffff985f0000da5f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1076,14 +1076,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Viewing/AI
   m_LastFoldersGridSize: 58
-  m_LastProjectPath: /Users/sungho/Documents/GitHub/ML-test
+  m_LastProjectPath: /Users/sungho/Documents/GitHub/ML-Example
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 3}
-    m_SelectedIDs: b6600000
-    m_LastClickedID: 24758
-    m_ExpandedIDs: 000000008c6000008e600000b460000000ca9a3b
+    scrollPos: {x: 0, y: 39}
+    m_SelectedIDs: 0a610000
+    m_LastClickedID: 24842
+    m_ExpandedIDs: 00000000e0600000e2600000e460000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1111,7 +1111,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000008c6000008e600000
+    m_ExpandedIDs: 00000000e0600000e2600000e4600000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1138,7 +1138,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1208,7 +1208,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 105.70798
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:

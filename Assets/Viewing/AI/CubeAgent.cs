@@ -12,7 +12,7 @@ public class CubeAgent : Agent
     private Rigidbody rb;
     private Vector3 startPos;
     private Vector3 targetPos;
-
+    public GameObject[] posList = new GameObject[4];
     [SerializeField] private GameObject target;
     [Range(1,30)] public float speed = 1f;
 
@@ -25,14 +25,14 @@ public class CubeAgent : Agent
 
     public override void OnEpisodeBegin()
     {
-        // 에이전트의 위치 초기화
         transform.position = startPos;
         rb.velocity = Vector3.zero;
         rb.angularVelocity = Vector3.zero;
         transform.rotation = Quaternion.Euler(0f, UnityEngine.Random.Range(0f,360f), 0f);
 
-        target.transform.position = new Vector3(UnityEngine.Random.Range(targetPos.x-4, targetPos.x+4), 1f, UnityEngine.Random.Range(targetPos.z + 10, targetPos.z -10));
-        // target.transform.position = new Vector3(UnityEngine.Random.Range(targetPos.x-13, targetPos.x+13), 1f, UnityEngine.Random.Range(targetPos.z + 13, targetPos.z + 13));
+        targetPos = posList[UnityEngine.Random.Range(0, posList.Length)].transform.position;
+
+        target.transform.position = new Vector3(UnityEngine.Random.Range(targetPos.x-13, targetPos.x+13), 1f, UnityEngine.Random.Range(targetPos.z + 13, targetPos.z + 13));
     }
 
     public override void CollectObservations(VectorSensor sensor)
